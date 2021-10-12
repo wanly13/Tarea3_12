@@ -1,0 +1,16 @@
+<h2>SELECT YOUR ORDER NOW </h2>
+<table>
+    <tr>
+      <th>Plate Name</th>
+      <th>Price</th>
+      <th>Create Date </th>
+      <th>Modified Date </th>
+    </tr>
+    <tr *ngFor="let item of menus">
+      <td>{{item.Nombre_del_Plato}}</td>
+      <td>{{item.precio}}</td>
+      <td>{{item.create_date}}</td>
+      <td>{{item.modified_date}}</td>
+    </tr>    
+</table>
+
